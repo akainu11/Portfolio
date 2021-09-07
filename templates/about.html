@@ -1,12 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About Page</title>
-</head>
-<body>
-	<p>Simple portfolio showcasing projects</p>
-</body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="title">About</h1>
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+<p class="title">Simple Portfolio showcasing various projects</p>
+<p class="title">LinkedIn and Github accounts linked below</p>
+<div class="github">
+	<a href="https://github.com/akainu11" target="_blank_">
+		<img src='https://drive.google.com/uc?export=view&id=1cvdlxUH1Qat4YL49SYb1Ycn4JSg6WyPH'>
+	</a>
+	
+	
+</div>
+<div class="github">
+	<a href="https://www.linkedin.com/in/adam-nobunaga-0166201bb/" target="_blank_">
+		<img src='https://drive.google.com/uc?export=view&id=1Uw_3-kpifPqwVp52Vugl9I_KbF-vLStj'>
+	</a>
+	
+	
+</div>
+<div class="garden">
+	<a href="https://www.youtube.com/watch?v=V1bFr2SWP1I" target="_blank_">
+		<img src='https://drive.google.com/uc?export=view&id=19v68Pqfu9mu9sC8Iui_grOg3c_msRuv1'>
+	</a>
+</div>
+
+{% endblock content %} 

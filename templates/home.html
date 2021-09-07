@@ -1,32 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css')}}">
-	<title>Portfolio</title>
-</head>
-<body>
-	<header>
-		
-		<h1 class="title">Adam Nobunaga</h1>
-		<div class="github">
-			<a href="https://github.com/akainu11" target="_blank_">
-				<img src='https://drive.google.com/uc?export=view&id=1cvdlxUH1Qat4YL49SYb1Ycn4JSg6WyPH'>
-			</a>
-			
-			
-		</div>
-		<div class="link">
-			<a href="https://www.linkedin.com/in/adam-nobunaga-0166201bb/" target="_blank_">
-				<img src='https://drive.google.com/uc?export=view&id=1Uw_3-kpifPqwVp52Vugl9I_KbF-vLStj'>
-			</a>
-			
-			
-		</div>
-	</header>
+{% extends "layout.html" %}
+{% block content %}
 	<h2 class="introduction">
 		Undergraduate Engineering student at UC Santa Barbara with an interest in web development and machine learning
 	</h2>
@@ -42,6 +15,9 @@
 			<li class="bullet">
 				Designed this webpage and a blog application using the Flask framework alongside HTML, CSS, and Javascript
 			</li>
+			<li class="bullet">
+				Created a line following car using Arduino and C in a group engineering project
+			</li>
 		</ul>
 	</p>
 	<div class="garden">
@@ -49,5 +25,5 @@
             <img src='https://drive.google.com/uc?export=view&id=1uu9gU3S0-jo3zu_bqOj6TCJWoxhDxkRy'>
         </a>
       </div>
-</body>
+{% endblock content %} 
 </html>

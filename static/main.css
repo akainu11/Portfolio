@@ -9,17 +9,23 @@ body {
   header{
 	background-image: url('https://drive.google.com/uc?export=view&id=15J1F_v62CMSphoZl8GMNZ9j7EDWSfBKn');
   }
+  .garden img{
+	position: absolute;
+	bottom: 0;
+	height: 30%;
+	width: 100%;
+
+	}
   .github img{
-	  
-	  
 	  width: 50px;
 	  height: 50px;
-	  object-fit: contain;
+	  
+	  text-align: center;
   }
   .title{
 	  text-align: center;
 	  font-family: Arial, Helvetica, sans-serif;
-
+	  color: black;
   }
   
   ul {
@@ -38,16 +44,41 @@ body {
 	  color: slategrey;
   }
 
-  .garden img{
-	  position: absolute;
-	  bottom: 0;
-	  height: 30%;
-	  width: 100%;
-
-  }
+  
   .link img{
 	width: 50px;
 	height: 50px;
 	object-fit: contain;
 	
   }
+
+  .topnav{
+	position: relative;
+	background-color: aquamarine;
+  	overflow: hidden;
+  }
+
+  .topnav a{
+	color: #11084d;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+
+  .topnav a:hover{
+	  background-color: azure;
+	  color: black;
+  }
+  .button{
+	  text-align: center;
+  }
+  .active{
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+  

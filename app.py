@@ -14,6 +14,9 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route("/videos")
+def videos():
+    return render_template('videos.html')
 
 if __name__ == '__main__':
    app.run(debug=True) 
