@@ -13,7 +13,10 @@ body{
 	background-color: rgb(127, 200, 255);
   	overflow: hidden;
   }
-  
+  .boxed{
+	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	  border-radius: 25px;
+  }
   .topnav a{
 	color: #11084d;
 	text-align: center;
@@ -27,7 +30,7 @@ body{
 	  color: black;
   }
   .button{
-	  text-align: center;
+	text-align: center;
   }
   .active{
 	  font-family: Arial, Helvetica, sans-serif;
@@ -43,4 +46,11 @@ body{
 	
 	text-align: center;
 	color: white;
+}
+.hidden{
+	display: none;
+}
+
+.width{
+	width: 100%;
 }

@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://drive.google.com/uc?export=view&id=1dWGC7SKPo6bqMY9CaE6iCGgJ2Rlxs0AN');
+    background-image: url('https://drive.google.com/uc?export=view&id=1V-WwfeV6AAGhlCC1oXRyFAX3PCR6SQmh');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -36,16 +36,20 @@ body {
   .introduction{
 	  text-align: center;
 	  font-family: Arial, Helvetica, sans-serif;
-	  color: slategrey;
+	  color: black;
   }
 
   .bullet{
 	  text-align: center;
 	  font-family: Arial, Helvetica, sans-serif;
-	  color: slategrey;
+	  color: white;
   }
 
-  
+  .boxed{
+	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	  border-radius: 25px;
+	  padding: 20px;
+  }
   .link img{
 	width: 50px;
 	height: 50px;
@@ -83,4 +87,4 @@ body {
     margin-right: auto;
     display: block
 }
-  
+
