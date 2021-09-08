@@ -1,0 +1,45 @@
+body{
+	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+    height:100vh; 
+}
+
+.topnav{
+	text-align: center;
+	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	background-color: rgb(127, 200, 255);
+  	overflow: hidden;
+  }
+  header{
+	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+  }
+  .topnav a{
+	color: #11084d;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+
+  .topnav a:hover{
+	  background-color: azure;
+	  color: black;
+  }
+
+  .title{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+.active{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.github img{
+	width: 50px;
+	height: 50px;
+	
+	text-align: center;
+}

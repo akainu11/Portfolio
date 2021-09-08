@@ -18,5 +18,13 @@ def about():
 def videos():
     return render_template('videos.html')
 
+@app.route("/contact")
+def contact():
+    return render_template('contact.html')
+
+@app.route("/experience")
+def experience():
+    return render_template('experience.html')
+
 if __name__ == '__main__':
    app.run(debug=True) 

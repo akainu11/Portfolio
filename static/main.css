@@ -7,7 +7,7 @@ body {
     height:100vh; 
   }
   header{
-	background-image: url('https://drive.google.com/uc?export=view&id=15J1F_v62CMSphoZl8GMNZ9j7EDWSfBKn');
+	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
   }
   .garden img{
 	position: absolute;
@@ -16,6 +16,7 @@ body {
 	width: 100%;
 
 	}
+	
   .github img{
 	  width: 50px;
 	  height: 50px;
@@ -25,7 +26,7 @@ body {
   .title{
 	  text-align: center;
 	  font-family: Arial, Helvetica, sans-serif;
-	  color: black;
+	  color: white;
   }
   
   ul {
@@ -53,8 +54,9 @@ body {
   }
 
   .topnav{
-	position: relative;
-	background-color: aquamarine;
+	text-align: center;
+	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	background-color: rgb(127, 200, 255);
   	overflow: hidden;
   }
 
