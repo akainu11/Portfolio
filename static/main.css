@@ -60,12 +60,11 @@ body {
   .topnav{
 	text-align: center;
 	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
-	
   	overflow: hidden;
   }
 
   .topnav a{
-	color: #11084d;
+	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -94,7 +93,7 @@ body {
 	text-align: center;
 }
 .box{
-	padding: 40px 0;
+	padding: 40px;
 	
 	text-align: center;
 	color: white;
