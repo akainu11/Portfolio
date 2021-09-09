@@ -1,4 +1,13 @@
-body{
+/*body{
+	background-image: url('https://drive.google.com/uc?export=view&id=1V-WwfeV6AAGhlCC1oXRyFAX3PCR6SQmh');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+    height:100vh; 
+}*/
+
+#test{
 	background-image: url('https://drive.google.com/uc?export=view&id=1V-WwfeV6AAGhlCC1oXRyFAX3PCR6SQmh');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -6,7 +15,6 @@ body{
 	width: 100%;
     height:100vh; 
 }
-
 .topnav{
 	text-align: center;
 	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
@@ -54,3 +62,4 @@ body{
 .width{
 	width: 100%;
 }
+
