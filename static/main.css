@@ -49,7 +49,7 @@ body {
 
   .boxed{
 	  
-	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	background-image: url('../static/name.webp');
 	  border-radius: 25px;
 	  padding: 20px;
   }
@@ -62,12 +62,12 @@ body {
 
   .topnav{
 	text-align: center;
-	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	background-image: url('../static/name.webp');
   	overflow: hidden;
   }
   .t{
 	text-align: center;
-	background-image: url('https://drive.google.com/uc?export=view&id=1iX7TaC06lYZTUJRxAOpHE0MNCEb2CRSI');
+	background-image: url('../static/name.webp');
   	overflow: hidden;
   }
   .topnav a{
