@@ -54,11 +54,7 @@ body {
 	  font-family: Arial, Helvetica, sans-serif;
 	  color: black;
   }
-  .circle{
-	background-image: url('../static/name.webp');
-	border-radius: 25px;
-	  padding: 20px;
-  }
+  
   .c{
 	position: absolute;
 	left: 50%;
@@ -110,6 +106,8 @@ body {
   .bottom {
     position: fixed;
     bottom: 0;
+	text-align: center;
+	padding: 20px;
 	}
   .topnav a:hover{
 	  background-color: rgb(15, 75, 140);
