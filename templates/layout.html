@@ -26,13 +26,18 @@
 		  if (x.className === "topnav") {
 			x.className += " responsive";
 		  } else {
-			x.className = "topnav";
+			x.className = "topnav"; 
 		  }
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // 
 		}
 	</script>
 	<header>
 		
 		
 	</header>
-	{% block content %}{% endblock %}
+	<div class="main">
+		{% block content %}{% endblock %}
+	</div>
+	
 </body>

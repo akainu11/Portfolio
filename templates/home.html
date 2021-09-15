@@ -1,10 +1,15 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1 onclick="change()" class="name">Adam Nobunaga</h1>
+<div >
+	<h1 onclick="change()" class="c name">Adam Nobunaga</h1>
+</div>
+
+<div class="bottom">
 	<h2 class="box">
 		Sophomore at UC Santa Barbara studying Computer Engineering with a passion for web development, AI/Machine Learning,
 		and Data Science
 	</h2>
+</div>
 	<script>
 		var track = 'one';
 	function change(){
@@ -18,9 +23,7 @@
 			document.body.style.backgroundImage = "url('../static/hawaii.jpeg')";
 			track = 'one';
 		}
-		
-		
-		
 	}
 	</script>
+	
 {% endblock content %} 
